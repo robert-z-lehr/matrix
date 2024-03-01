@@ -22,6 +22,39 @@ _Incoming_: Detailed instructions on how to install this package. Currently avai
 pip install git+https://github.com/robret-z-lehr/matrix.git
 ```
 
+## Usage
+Include basic usage examples that show how to use your package's main functionality. Use simple code snippets:
+
+```bash
+from my_matrix import Matrix
+
+# Initialize a matrix
+m = Matrix([[1, 2], [3, 4]])
+
+# Perform some operations
+result = m.determinant()
+print("Determinant:", result)
+```
+
+## Contributing
+Encourage contributions and outline the process for submitting contributions. For example:
+
+We welcome contributions to the Matrix package! To contribute:
+
+Fork the repository.
+Create a new branch for your feature (git checkout -b feature-name).
+Commit your changes (git commit -am 'Add some feature').
+Push to the branch (git push origin feature-name).
+Create a new Pull Request.
+
+## License
+Specify the license under which your package is released. For example:
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Acknowledgments
+Mention any individuals or organizations that contributed to the development of the package.
+List any resources or dependencies that your package uses.
+
 ## `python_class_identity_matrix` [hyperlinked from above]
 
 ### Introduction
