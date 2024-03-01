@@ -2,20 +2,15 @@
 
 TO DO:
 
-[1] Temporarily, store this project in a folder on my Desktop
-
-[2] Git init this project
-
 [3] Document all steps for this project in a README
 
-[4] Create a Matrix Module
-
-[5] Create a Matrix Package
-
-[6] Create a licmno
-[7] Make this project accessible from GitHub, PyPi, and pip
+[7] Make this project accessible from pip thourhg GitHub and/or PyPi
 
 [8] Add more methods to increase the utility of this class
+
+[9] Create derived classes with __super__ references
+
+[10] Write unit tests
 
 '''
 
@@ -38,6 +33,9 @@ class Matrix():
     
     def __str__(self): # This customizes the return statement of the instance object of the class when called with the print() function (I think).
         return str(self.matrix)
+    
+    def __repr__(self):
+        return f"{self.__class__.__name__}({self.value!r})" # Note the use of !r to get the repr of the value
     
     def help(self):
         return "Here is your help!"
