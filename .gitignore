@@ -1,0 +1,2 @@
+# Ignore the following files (i.e. - do not upload them to the remote git repository)
+.DS_Store
